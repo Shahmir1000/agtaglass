@@ -1,0 +1,129 @@
+.navbar,
+.navLinks,
+.navIcons,
+.navCenter {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  color: var(--clr-primary-5);
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  box-shadow: var(--dark-shadow);
+}
+.navCenter {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.imageContainer {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.navToggle {
+  background: transparent;
+  border: transparent;
+  font-size: 1.5rem;
+  color: var(--clr-primary-5);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.navToggle:hover {
+  transform: scale(1.2);
+}
+.webVmobile {
+  width: 100%;
+}
+.navLinks {
+  display: block;
+}
+.showLinks {
+  display: block;
+}
+.navLinks li {
+  padding-right: 1rem;
+}
+.navLink {
+  display: block;
+  padding: 1rem 2rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  transition: var(--transition);
+  cursor: pointer;
+}
+.navLink:hover {
+  padding-left: 3rem;
+  background: var(--clr-primary-8);
+  color: var(--clr-primary-1);
+}
+
+.navLink h4 {
+  font-size: 1rem;
+}
+
+.navIcons {
+  width: 20px;
+  display: none;
+}
+
+.icon {
+  margin-right: 1rem;
+  width: 20px;
+  color: var(--clr-primary-5);
+}
+.icon:hover {
+  color: var(--clr-primary-10);
+}
+
+.hideDisplay {
+  display: none;
+}
+
+/* .boxButton:hover {
+  color: var(--clr-white);
+  background-color: var(--clr-primary-5);
+} */
+
+@media screen and (min-width: 992px) {
+  .navToggle {
+    display: none;
+  }
+  .hideDisplay,
+  .webVmobile {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .navIcons {
+    display: flex;
+  }
+  .navIcons li {
+    display: inline-block;
+  }
+  .navLinks {
+    display: flex;
+  }
+  .navLink {
+    padding: 0 0;
+  }
+  .navLink:hover {
+    padding: 0;
+    color: var(--clr-primary-10);
+    background-color: transparent;
+  }
+}
