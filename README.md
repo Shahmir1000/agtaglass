@@ -1,3 +1,15 @@
+## Project details
+
+I was asked to make a website for a small company. They did not want me to finish so the project is incomplete. I used Nextjs for the font end stack. I used CSS and HTML for the styling. 
+
+Links:
+
+1. Netlify deployed project:
+https://agtaglass.netlify.app/
+
+2. LinkedIn
+https://www.linkedin.com/in/muhammad-shahmir-masood-3a6101b6/
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
